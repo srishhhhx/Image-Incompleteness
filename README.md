@@ -23,7 +23,7 @@ This is useful in document scanning, medical imaging, or image preprocessing pip
 ## Dataset
 
 - Complete images : 1000 images acquired randomly. 
-- Incomplete images : 1000 images with significant white or black patches.
+- Incomplete images : 1000 images with significant white or black patches synthetically generated.
 
 Types of Incompleteness Generated
 
