@@ -1,6 +1,12 @@
 # Image Completeness Detector
 
-This project provides two approaches — a **rule-based heuristic method** and a **CNN-based deep learning model** — to detect incomplete images (e.g., corrupted scans or missing data) based on large white or black regions.
+This project provides two approaches — 
+
+a **rule-based heuristic method** and 
+
+a **CNN-based deep learning model** 
+
+to detect incomplete images (e.g., corrupted scans or missing data) based on large white or black regions.
 
 ---
 
@@ -24,26 +30,22 @@ Types of Incompleteness Generated
 - center_block :
 
  Large rectangular missing area in the center of the image. 
-
-Simulates major occlusion or central damage.
+ Simulates major occlusion or central damage.
 
 - random_patches:
 
-Multiple smaller rectangular patches randomly scattered.
-
-Mimics random scratches or pixel dropouts.
+ Multiple smaller rectangular patches randomly scattered.
+ Mimics random scratches or pixel dropouts.
 
 - freeform:
 
-Several irregular curved lines of random length and thickness.
-
-Looks like scratches, scribbles, or tears.
+ Several irregular curved lines of random length and thickness.
+ Looks like scratches, scribbles, or tears.
 
 - irregular_blobs:
 
-Few irregular elliptical shapes placed randomly.
-
-Simulates stains, smudges, or ink blots.
+ Few irregular elliptical shapes placed randomly.
+ Simulates stains, smudges, or ink blots.
 
 ---
 
@@ -75,7 +77,7 @@ Simulates stains, smudges, or ink blots.
 
 ---
 
-## How to Run locally
+## How to run the notebooks
 
 ### Rule-Based Detector
 
@@ -99,6 +101,13 @@ Located in `sample_images/`:
 - `incomplete_example.jpg`: Contains large white/black regions
 
 
+- Complete image : 
+
+![Complete image](cnn_based/sample_images/complete/image9938.jpeg)
+
+- Incomplete image : 
+
+![Incomplete image](cnn_based/sample_images/incomplete/250.jpg)
 
 ---
 
