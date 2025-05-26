@@ -80,9 +80,9 @@ Types of Incompleteness Generated
 
 ### Rule-Based Detector
 
-1. Open `notebooks/1_rule_based_detector.ipynb` in Google Colab
-2. Upload sample images when prompted
-3. Run all cells — outputs classification per image
+1. Open `notebooks/1_rule_based_detector.ipynb`
+2. Change image name in **Analyze a Single Image for Incompleteness** cell
+3. Run the remaining cells for complete statistics
 
 ### CNN-Based Detector
 
