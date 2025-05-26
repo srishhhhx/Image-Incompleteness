@@ -73,7 +73,6 @@ Types of Incompleteness Generated
 **Features:**
 - Augmented dataset (for robustness)
 - 2D ConvNet with ReLU activations and softmax classifier
-- Achieves high accuracy on custom test data
 
 ---
 
