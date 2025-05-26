@@ -2,9 +2,9 @@
 
 This project provides two approaches — 
 
-a **rule-based heuristic method** and 
+- **rule-based heuristic method** and 
 
-a **CNN-based deep learning model** 
+- **CNN-based deep learning model** 
 
 to detect incomplete images (e.g., corrupted scans or missing data) based on large white or black regions.
 
